@@ -1,0 +1,79 @@
+.hr-container{
+    /* background: url("https://www.trainingconcepts.com/wp-content/uploads/2021/02/AdobeStock_204527293-scaled.jpeg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin-top:20px;
+    padding:50px 0;
+    color:white;
+    /* background-image: linear-gradient(to right, #594747,#748387); */
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.intro-title{
+    /* border:2px solid green; */
+    text-align: center;
+    width:90%;
+    height: auto;
+    margin:0.2rem auto;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+.intro-title:hover{
+    text-decoration: underline;
+}
+.intro-text{
+    /* border:2px solid grey; */
+    text-align: center;
+    width:75%;
+    height: auto;
+    margin:auto;
+    /* margin-bottom:0.6rem; */
+    font-family: 'Oswald', sans-serif;
+    font-size:1rem;
+    font-weight: bold;
+    line-height:2;
+}
+
+.button-box{
+display: flex;
+align-items: center;
+/* margin-left: 500px; */
+text-align: center;
+justify-content: center;
+width: 50%;
+height: auto;
+}
+
+.text2{
+    display: flex;
+    width: 60%;
+    height: auto;
+    /* margin-left: 250px; */
+    text-align: center;
+}
+.client_logos{
+    display: flex;
+    width: 95%;
+    height: auto;
+    width: 500px;
+    flex-direction: row;
+   justify-content: space-around;
+}
+
+
+.invert{
+    width: calc(25% - 10px);
+    /* width: 25%; */
+    filter: invert(1);
+}
+.invert:hover{
+    filter: invert(0);
+}
